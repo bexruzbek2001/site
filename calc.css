@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.orqafon{
+    background-color: aquamarine;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.calc{
+    width: 368px;
+    height: 440px;
+    background-color: #191b28;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+.inputnatija {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 91%;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+   }
+   .calc ul{
+       list-style-type: none;
+   }
+.qator{
+    margin-left: 15px;
+    margin-top: 20px;
+}   
+.qator li{
+    text-decoration: none;
+    display: inline-block;
+}
+.qator .button1{
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    border: solid black 0.5px;
+    outline: none;
+    background-color: #ec58ff;
+    color: white;
+    cursor: pointer;
+}
+.button1:active {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+   }
+.barobar{
+    width: 88%;
+    height: 50px;
+    border-radius: 5px;
+    border: solid black 0.5px;
+    outline: none;
+    background-color: #2407cc;
+    color: white;
+    margin-top: 15px;
+    margin-left: 17px;
+    cursor: pointer;
+}   
